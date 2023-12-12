@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <script src="script.js"></script>
+    <header>
+          <main>
+            <div class="logo">
+              <a href="index.html"><img src="img/Logo.png"/></a>
+            </div>
+            <div class="menu">
+              <br>
+              <nav class="dp-menu">
+                <ul>
+                   <li>
+                    <a href="index.html"> Início </a </li>
+                  
+                  <li>
+                    <a href="equipe.html"> Equipe </a>
+                  </li>
+  
+                  <li class="abaixo">
+                    <a href="HQ.html"> Material Educativo </a>
+                    
+                    <div class="menu_abaixo">
+                      <a href="HQ.html">HQ</a>
+                      <a href="Cartilha.html">Cartilha</a>
+                      <a href="Ficha.html">Ficha Técnica</a>
+                    </div>
+                    
+                  </li>
+                  <li>
+                    <a href="Quiz.html"> Quiz  </a>
+                  </li>
+                  <li>
+                    <a href="fale_conosco.html"> Fale Conosco </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </main>
+      </header>
+      
+        
+
+        <div class="Rec">
+          <img src="img/inicio.png">
+  
+          <h1>Borracha <br> vulcanizada</h1>
+          <p>Clique no botão abaixo e veja os resultados <br> da nossa pesquisa de                   campo</p>
+          <button class="Veja" id ="obj" onclick="resultados()">Resultados</button>
+      </div>
+
+  <div class="slider">
+
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+        <input type="radio" name="radio-btn" id="radio6">
+        <input type="radio" name="radio-btn" id="radio7">
+        <input type="radio" name="radio-btn" id="radio8">
+        <input type="radio" name="radio-btn" id="radio9">
+        <input type="radio" name="radio-btn" id="radio10">
+        <input type="radio" name="radio-btn" id="radio11">
+        <input type="radio" name="radio-btn" id="radio12">
+        <input type="radio" name="radio-btn" id="radio13">
+        <input type="radio" name="radio-btn" id="radio14">
+        <input type="radio" name="radio-btn" id="radio15">
+        <input type="radio" name="radio-btn" id="radio16">
+        <input type="radio" name="radio-btn" id="radio17">
+  
+  
+      <div class="slide primeiro">
+        <img src="img/slide1.jpg" alt="imagem 1"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide2.jpg" alt="imagem 2"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide3.jpg" alt="imagem 3"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide4.jpg" alt="imagem 4"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide5.jpg" alt="imagem 5"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide6.jpg" alt="imagem 6"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide7.jpg" alt="imagem 7"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide8.jpg" alt="imagem 8"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide9.jpg" alt="imagem 9"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide10.jpg" alt="imagem 10"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide11.jpg" alt="imagem 11"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide12.jpg" alt="imagem 12"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide13.jpg" alt="imagem 13"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide14.jpg" alt="imagem 14"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide15.jpg" alt="imagem 15"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide16.jpg" alt="imagem 16"/>
+      </div>
+      <div class="slide">
+        <img src="img/slide17.jpg" alt="imagem 17"/>
+      </div>
+  
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+        <div class="auto-btn5"></div>
+        <div class="auto-btn6"></div>
+        <div class="auto-btn7"></div>
+        <div class="auto-btn8"></div>
+        <div class="auto-btn9"></div>
+        <div class="auto-btn10"></div>
+        <div class="auto-btn11"></div>
+        <div class="auto-btn12"></div>
+        <div class="auto-btn13"></div>
+        <div class="auto-btn14"></div>
+        <div class="auto-btn15"></div>
+        <div class="auto-btn16"></div>
+        <div class="auto-btn17"></div>
+      </div>
+  
+    </div>
+
+
+
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+      <label for="radio5" class="manual-btn"></label>
+      <label for="radio6" class="manual-btn"></label>
+      <label for="radio7" class="manual-btn"></label>
+      <label for="radio8" class="manual-btn"></label>
+      <label for="radio9" class="manual-btn"></label>
+      <label for="radio10" class="manual-btn"></label>
+      <label for="radio11" class="manual-btn"></label>
+      <label for="radio12" class="manual-btn"></label>
+      <label for="radio13" class="manual-btn"></label>
+      <label for="radio14" class="manual-btn"></label>
+      <label for="radio15" class="manual-btn"></label>
+      <label for="radio16" class="manual-btn"></label>
+      <label for="radio17" class="manual-btn"></label>
+    </div>
+
+
+  </div>
+
+  
+      <fitilha>
+        <div class="anexo" > Objetivo do nosso projeto 
+          <audio id="voz" controls>
+            <source src="audio1.unknown" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+          </audio>
+        </div> 
+
+      </fitilha>
+      <div class="Texto">
+        <p>  O objetivo do nosso projeto, foi justamente trazer o conhecimento e a conscientização a respeito do descarte dos pneus, por ser uma pauta pouco falada publicamente. Por isso, decidimos expor os problemas do seu mal descarte, e o quanto prejudica a saúde pública e o meio ambiente. Só no Brasil,  450 mil toneladas de pneus são descartados. É um número bastante grande e que gera real impacto, visto que esse objeto demora cerca de 600 anos para se decompor. Sem contar a perda de eficiência que os pneus causam em aterros sanitários, por conta de seus volumes.</p>
+  <p>Segundo dados da organização Reciclanip, o descarte correto de pneus evitou, em uma década, que mais de 3,7 milhões de toneladas desse material fossem parar em locais errados, prejudicando a natureza e a saúde.</p>
+
+        <p>Clique na imagem do pneu ao lado e veja o que compõe a formula do pneu</p>
+        <img src="img/pneu.png" onclick="formula()">
+        <formula class="img2">
+          <img class="img2" src="img/formulas.png" onclick="formula()">
+        </formula>
+      </div>
+
+      <fitilha2>
+        <div class="anexo2" > Veja como é fabricado um pneu! 
+          <audio id="voz" controls>
+            <source src="audio2.unknown" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+          </audio>
+        </div>
+      </fitilha2>
+
+      <div class="Texto2">
+        <p>Você sabe como é feito um pneu? Neste vídeo Iberê vai até uma fábrica em Santo André, São Paulo, onde são produzidos mais de 20 mil por dia, para descobrir.E se você acha que só é utilizada a borracha no processo, está redondamente enganado. 
+
+ 
+        <br><br>Clique no vídeo abaixo e venha ver todo o processo de fabricação de um pneu!</p>
+        <a href="https://www.youtube.com/watch?v=4BACwvH6aHg">
+          <img src="img/ibere.png" >
+        </a>
+      </div>
+
+      <fitilha3>
+        <div class="anexo" > Reciclando e inovando! 
+          <audio id="voz" controls style="margin-left: 8%";>
+            <source src="audio3.unknown" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+          </audio>
+        </div>
+      </fitilha3>
+  
+      <div class="Texto2">
+        <p>Nesse vídeo o repórter interroga dois alunos de engenharia, sobre os benefícios da borracha vulcanizada em asfaltos,  pois muitas empresas utilizam o material reciclado, para esse tipo de finalidade. O vídeo apresenta justificativas e objetivos, retratando ainda, as dificuldades de se conseguir pneus reutilizados e como isso ajudaria o meio ambiente, e até as novas vias.
+
+ 
+        <br><br>Clique no vídeo abaixo e veja uma das alternativas para a reciclagem desse material.</p>
+
+        <a href="https://www.youtube.com/watch?v=n0F07xQP534">
+          <img src="img/asfalto.png">
+        </a >
+      </div>
+      <p id ="int"></p>
+      <fitilha4>
+        <div class="anexo3" > Nossa intervenção 
+          <audio id="voz" controls style="margin-left: 8%";>
+            <source src="audio5.unknown" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+          </audio>
+        </div>
+      </fitilha4>
+
+      <div class="Texto3">
+        <p>  A mediação proposta pela professora Marta Abad aconteceu no dia 30 de agosto de 2023 no pátio do gramado da Etec de Taboão da Serra. Foi uma apresentação mais interativa que tinha o objetivo de conecta-se com a natureza e envolve-se todos que assistissem (professores e demais alunos). Oferecemos isso porque o projeto é sustentável e queríamos que as pessoas interagissem com a intervenção se conectando com a natureza, e ainda, assim, dando características artísticas ao nosso projeto.</p>
+    
+        <img src="img/planta.png">
+      </div>
+
+      <fitilha5>
+        <div class="anexo3" > Agenda 2030 
+          <audio id="voz" controls>
+            <source src="audio5.unknown" type="audio/mpeg">
+            Seu navegador não possui suporte ao elemento audio
+          </audio>
+        </div>
+      </fitilha5>
+
+      <div class="Texto4">
+        <p>    Pensamos na intervenção como algo que pudéssemos usar algo reciclável que provavelmente iria poluir o meio ambiente e mesmo assim trazer algo sustentável e útil, com isso podemos assimilar nossa intervenção com alguns objetivos da agenda 2030 da ONU, são eles:</p>
+
+        
+        <img src="img/2030.png">
+        
+        <b><p2>ODS 11- cidades e comunidades sustentáveis:</p2></b>
+        <p1>    nossa intervenção traz com sigo a ideia principal de uma forma sustentável de reutilizar o pneu sem que ele vire algum impecilio após seu uso original em automóveis, tendo assim um descarte correto que não trará mais poluição para a cidade ou comunidade.</p1>
+
+        <br><br>
+
+      
+        <img src="img/2031.png">         
+        <audio id="voz" controls >
+          <source src="audio5.unknown" type="audio/mpeg">
+          Seu navegador não possui suporte ao elemento audio
+        </audio>
+
+        <b><p2>ODS 12- Consumo e produção responsáveis:</p2></b>
+        <p1>    em média no Brasil são produzidos 40 milhões de pneus por ano, e apenas em janeiro a março são vendido 17 milhões, a produção desses objetos nos faz refletir se o descarte e a reciclagem andam de maneira proporcional a quantidade de produtos fabricados.</p1><br>
+
+        <br><br>
+        <img src="img/2032.png">
+
+        <b><p2>ODS 15- Vida sobre a terra:</p2></b>
+        <p1>    podemos encontrar em alguns lugares no mundo uma espécie de cemitério de pneus, esses cemitérios muitas vezes quando super lotados são ateados fogo causando uma fumaça preta tóxica, além do acúmulo de água que pode trazer mosquitos portadores de vírus.</p1>
+
+        
+      </div>
+
+  <audio id="voz" controls >
+    <source src="audio5.unknown" type="audio/mpeg">
+    Seu navegador não possui suporte ao elemento audio
+  </audio>
+
+    <fitilha6>
+      <div class="anexo" > Fotos do processo </div>
+    </fitilha6>
+
+      <div class="fotos">
+        <img src="img/1.png">
+        <img src="img/2.png">
+        <img src="img/3.png">
+      </div>
+      <div class="fotos">
+        <img src="img/4.png">
+        <img src="img/5.png">
+        <img src="img/6.png">
+      </div>
+
+    <footer>
+      <div class="rodape">
+        <a href="index.html"><img src="img/Logo.png"/></a><br>
+        <p> Pesquisa de campo</p><br><br>
+        <a href="#obj"><p> Objetivo</p></a><br><br>
+        <a href="#int"><p> Intervenção</p></a>
+
+        <p4> Locais que reciclam pneus:</p4>
+        <a href="https://www.ecycle.com.br/"><p2> Ecycle</p2></a><br><br>
+        <a href="https://www.prefeitura.sp.gov.br/cidade/secretarias/subprefeituras/noticias/index.php?p=250404"><p2> Ecoponto</p2></a><br><br>
+        <a href="https://www.utep.com.br/"><p2> Utep</p2></a>
+
+        <a href="https://www.google.com/intl/pt-BR/gmail/about/"><p3><img src="img/envelope.png"> futurodaetectb@gmail.com</p3></a><br><br>
+        <a href="https://www.instagram.com/"><p5><img class = "inst" src="img/insta.png"> @estudociencia</p5></a>
+      </div>
+    </footer>
+
+
+</body>
+
+</html>
